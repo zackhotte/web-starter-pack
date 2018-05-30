@@ -1,0 +1,54 @@
+{
+  "name": "web-starter-pack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --config config/webpack.development.js",
+    "build": "webpack --config config/webpack.production.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zackhotte/web-starter-pack.git"
+  },
+  "keywords": [
+    "react",
+    "webpack"
+  ],
+  "author": "zackhotte",
+  "license": "MIT",
+  "bin": {
+    "cli": "./main.js"
+  },
+  "bugs": {
+    "url": "https://github.com/zackhotte/web-starter-pack/issues"
+  },
+  "homepage": "https://github.com/zackhotte/web-starter-pack#readme",
+  "dependencies": {
+    "jquery": "^3.3.1",
+    "npm": "^6.1.0",
+    "react": "^16.4.0",
+    "react-dom": "^16.4.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "clean-webpack-plugin": "^0.1.19",
+    "copy-webpack-plugin": "^4.5.1",
+    "css-loader": "^0.28.11",
+    "extract-text-webpack-plugin": "^4.0.0-beta.0",
+    "html-webpack-plugin": "^3.2.0",
+    "node-sass": "^4.9.0",
+    "sass-loader": "^7.0.1",
+    "style-loader": "^0.21.0",
+    "uglifyjs-webpack-plugin": "^1.2.5",
+    "url-loader": "^1.0.1",
+    "webpack": "^4.9.1",
+    "webpack-cli": "^2.1.4",
+    "webpack-dev-server": "^3.1.4",
+    "webpack-merge": "^4.1.2"
+  }
+}
