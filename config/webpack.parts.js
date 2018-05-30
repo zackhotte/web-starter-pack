@@ -8,8 +8,6 @@ const CopyWebpackPlugin = require('copy-webpack-plugin');
 
 const config = require('./config');
 
-console.log(path.join(__dirname));
-
 exports.PATHS = {
 	app: path.join(__dirname, config.paths.entry),
 	build: path.join(__dirname, config.paths.build)
